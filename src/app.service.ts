@@ -5,6 +5,7 @@ import axios from 'axios';
 export class AppService {
   getHello(): string {
     // Паша: А где Валера
+    // Паша: Где все?
     return 'Паш, мы почти смогли, или не очень';
   }
   getWorkTime(useridParam: number, dateParam: string /* string в формате 'YYYY-MM-DD' */): number {
